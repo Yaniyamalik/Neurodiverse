@@ -1,0 +1,208 @@
+.register{
+    border:10px solid white;
+    padding:50px;
+    background-color:#0077b6;
+    display: flex;
+    align-items: center;
+    justify-content:  space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.register-container{
+    border:5px solid white;
+    border-radius: 14px;
+    height:550px;
+    width:600px;
+    font-size: 20px;
+   
+}
+.register-container label{
+   padding-left: none;
+   text-align: left;
+   margin-left: 0%;
+   margin-right: 50px;
+   
+}
+.password label{
+    margin-right:10px;
+}
+.username{
+    margin-top: 20px;
+    margin-bottom:20px;
+    align-items:center;
+}
+.password{
+    margin-top: 0;
+    margin-bottom:20px;
+    align-items:center;
+}
+
+.email{
+    margin-top: 0;
+    margin-bottom:20px;
+    align-items:center;
+    
+}
+
+.password{
+    margin-top: 0;
+    margin-bottom:20px;
+    align-items:center;
+}
+.role{
+    margin-top: 0;
+    margin-bottom:20px;
+    align-items:center;
+}
+.neurotype{
+    margin-top: 0;
+    margin-bottom:20px;
+    align-items:center;
+}
+
+.register-container input{
+    height:50px;
+    border-radius: 14px;
+    width:300px;
+    
+    background-color: white;
+    color: black;
+}
+.register-container input::placeholder {
+    text-align: center;
+
+}
+
+.register-container button{
+    height: 50px;
+    width: auto;
+    background-color:#00b4db;
+    border:2px solid white;
+    
+}
+.signup button{
+    height: 50px;
+    width: auto;
+    background-color:#0077b6;   
+}
+.register-container:hover{
+    box-shadow: 10px 10px #03045e;
+    
+}
+.register-container button:hover{
+    background-color: black;
+    transform: scale(1.1);
+   
+}
+.login-img:hover{
+    transform: translateX(100px);
+}
+.register-img{
+    height: 680px;
+    width: 900px;
+    border:5px solid white;
+    border-radius: 14px;
+    padding-right: 20px;
+    border-right: none;
+}
+
+.neurotype label{
+    margin-right: 5px;
+}
+.neurotype  select {
+   
+  
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    width: 300px; 
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 2px solid #4A90E2;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%234A90E2'%3E%3Cpath fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+
+  }
+  
+
+  .neurotype select:hover {
+    border-color: #357ABD;
+  }
+  
+  
+ .neurotype select:focus {
+    outline: none;
+    border-color: #2A5C9C;
+    box-shadow: 0 0 5px rgba(42, 92, 156, 0.5);
+  }
+  
+ 
+ .neurotype select:disabled {
+    background-color: #f5f5f5;
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .neurotype select::-ms-expand {
+    display: none;
+  }
+  
+
+ 
+  .role  select {
+   
+    
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    width: 300px; 
+    padding: 10px 14px;
+    font-size: 16px;
+    border: 2px solid #4A90E2;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%234A90E2'%3E%3Cpath fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+
+  }
+  
+
+  .role select:hover {
+    border-color: #357ABD;
+  }
+  
+  
+ .role select:focus {
+    outline: none;
+    border-color: #2A5C9C;
+    box-shadow: 0 0 5px rgba(42, 92, 156, 0.5);
+  }
+  
+ 
+ .role select:disabled {
+    background-color: #f5f5f5;
+    color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .role select::-ms-expand {
+    display: none;
+  }
+  
+
+ 
+  

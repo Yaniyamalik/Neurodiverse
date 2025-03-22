@@ -1,4 +1,4 @@
-import app from "./app.js"
+import server from "./app.js"
 import connecDB from "./databases/index.js"
 import dotenv from "dotenv"
 

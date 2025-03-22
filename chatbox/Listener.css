@@ -1,0 +1,14 @@
+.listener{
+   
+        width:100%;
+        height:auto;
+        display: flex;
+        border:solid 8px black;
+
+}
+.l-image{
+    padding-top: 50px;
+    height:500px;
+    width:500px;
+    align-items: flex-start;
+}

@@ -1,0 +1,23 @@
+.physologist{
+   
+    width:100%;
+    height:auto;
+    display: flex;
+    border: solid 8px black;
+
+}
+.p-image{
+
+height:500px;
+width:500px;
+
+}
+.p-content{
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.p-btn:hover{
+    transform: scale(1.2);
+    color:#555;
+  }

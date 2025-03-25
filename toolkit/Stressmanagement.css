@@ -1,0 +1,27 @@
+.stress{
+   
+    width:100%;
+    height:auto;
+  
+    display: flex;
+    border: solid 8px black;
+
+}
+
+
+.st-content{
+    padding-top: 100px;
+    align-items: flex-start;
+    
+}
+.st-btn:hover{
+    transform: scale(1.2);
+    color:#555;
+  }
+
+  .st-img{
+
+    height:500px;
+    width:500px;
+    
+    }

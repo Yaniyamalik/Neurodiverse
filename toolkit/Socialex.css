@@ -1,0 +1,26 @@
+.social{
+   
+    width:100%;
+    height:auto;
+  
+    display: flex;
+    border: solid 8px black;
+
+}
+
+.social-img{
+
+    height:500px;
+    width:500px;
+    align-items: flex-start;
+    }
+.social-content{
+    padding-top: 100px;
+
+    
+}
+.soc-btn:hover{
+    transform: scale(1.2);
+    color:#555;
+  }
+
